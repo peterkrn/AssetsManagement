@@ -735,35 +735,3 @@ public class AssetsManagement {
         scanner.close();
     }
 }
-// Akan dibuat sebuah Tugas Besar Pemrograman Berorientasi Objek dengan judul Assets Management. 
-// Tugas Besar ini akan dikerjakan oleh 5 orang mahasiswa.
-// Pada laporannya, harus mencakup tiga hal ini: 
-//1. Deskripsi sistem yang akan dibuat.
-//2. Fitur-fitur lengkap
-//3. Rules detail
-
-// Deskripsi Sistem
-// Assets Management adalah sebuah program yang  digunakan untuk mengelola asset yang ada di sebuah perusahaan.
-// Asset yang dimaksud adalah barang-barang yang dimiliki oleh perusahaan yang digunakan untuk keperluan operasional perusahaan.
-// Asset Management ini akan digunakan oleh admin perusahaan untuk mengelola asset yang dimiliki oleh perusahaan.
-
-// Fitur-fitur 
-// 1. Menampilkan seluruh asset dari seluruh cabang
-// 2. Menampilkan seluruh asset dari cabang tertentu
-// 3. Menampilkan seluruh asset dari warehouse di cabang tertentu
-// 4. Transaksi asset
-//4a. Transfer asset
-// 4b. Beli asset
-// 4c. Jual asset
-// 4d. Tambah asset baru
-// 5. Menampilkan history semua asset 
-// 6. Menampilkan history sebuah asset
-
-// Rules Detail
-// 1. Class yang harus ada adalah Asset, Asset Movement, Warehouse, Branch, dan Assets Management.
-// 2. Branch memiliki nama dan list of warehouse.
-// 3. Warehouse memiliki nama, branch, dan list of asset.
-// 4. Asset memiliki nama, product code, product ID, price, merk, category, registered date.
-// 5. Asset Movement memiliki source, destination, quantity, date.
-// 6. Asset Movement dapat berupa transfer, buy, sell, add.
-// 7. Asset Movement dapat dilakukan dari warehouse ke warehouse, warehouse ke cabang, cabang ke cabang, cabang ke warehouse.
